@@ -1,0 +1,8 @@
+from datetime import datetime
+now=datetime.now()
+current_hour=now.hour
+
+print("я хочу плакать")
+print("я ничего не понимаю")
+print("у меня всё получится")
+print(f"сейчас{current_hour}часов")
